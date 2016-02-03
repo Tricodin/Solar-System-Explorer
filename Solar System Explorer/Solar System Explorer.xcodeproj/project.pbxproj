@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE40B1761AD213190034B0E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE40B1751AD213190034B0E6 /* main.m */; };
+		BE40B1811AD213190034B0E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1801AD213190034B0E6 /* Images.xcassets */; };
+		BE40B1841AD213190034B0E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1821AD213190034B0E6 /* LaunchScreen.xib */; };
+		BE40B1901AD213190034B0E6 /* Solar_System_ExplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE40B18F1AD213190034B0E6 /* Solar_System_ExplorerTests.m */; };
+		BE40B1A51AD213D70034B0E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE40B19A1AD213D70034B0E6 /* AppDelegate.m */; };
+		BE40B1A61AD213D70034B0E6 /* CMDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE40B19C1AD213D70034B0E6 /* CMDisplayView.m */; };
+		BE40B1A71AD213D70034B0E6 /* ImageTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = BE40B19E1AD213D70034B0E6 /* ImageTexture.m */; };
+		BE40B1A81AD213D70034B0E6 /* PlanetView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE40B1A01AD213D70034B0E6 /* PlanetView.m */; };
+		BE40B1A91AD213D70034B0E6 /* PlanetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE40B1A21AD213D70034B0E6 /* PlanetViewController.m */; };
+		BE40B1AA1AD213D70034B0E6 /* Sphere.m in Sources */ = {isa = PBXBuildFile; fileRef = BE40B1A41AD213D70034B0E6 /* Sphere.m */; };
+		BE40B1B51AD214000034B0E6 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1AB1AD214000034B0E6 /* earth.png */; };
+		BE40B1B61AD214000034B0E6 /* Jupiter.png in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1AC1AD214000034B0E6 /* Jupiter.png */; };
+		BE40B1B71AD214000034B0E6 /* Mars.png in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1AD1AD214000034B0E6 /* Mars.png */; };
+		BE40B1B81AD214000034B0E6 /* Mercury.png in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1AE1AD214000034B0E6 /* Mercury.png */; };
+		BE40B1B91AD214000034B0E6 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1AF1AD214000034B0E6 /* moon.png */; };
+		BE40B1BA1AD214000034B0E6 /* Neptune.png in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1B01AD214000034B0E6 /* Neptune.png */; };
+		BE40B1BB1AD214000034B0E6 /* Saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1B11AD214000034B0E6 /* Saturn.png */; };
+		BE40B1BC1AD214000034B0E6 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1B21AD214000034B0E6 /* sun.png */; };
+		BE40B1BD1AD214000034B0E6 /* Uranus.png in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1B31AD214000034B0E6 /* Uranus.png */; };
+		BE40B1BE1AD214000034B0E6 /* Venus.png in Resources */ = {isa = PBXBuildFile; fileRef = BE40B1B41AD214000034B0E6 /* Venus.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE40B18A1AD213190034B0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE40B1681AD213190034B0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE40B16F1AD213190034B0E6;
+			remoteInfo = "Solar System Explorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE40B1701AD213190034B0E6 /* Solar System Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE40B1741AD213190034B0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE40B1751AD213190034B0E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE40B1801AD213190034B0E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE40B1831AD213190034B0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE40B1891AD213190034B0E6 /* Solar System ExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar System ExplorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE40B18E1AD213190034B0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE40B18F1AD213190034B0E6 /* Solar_System_ExplorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solar_System_ExplorerTests.m; sourceTree = "<group>"; };
+		BE40B1991AD213D70034B0E6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE40B19A1AD213D70034B0E6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE40B19B1AD213D70034B0E6 /* CMDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDisplayView.h; sourceTree = "<group>"; };
+		BE40B19C1AD213D70034B0E6 /* CMDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDisplayView.m; sourceTree = "<group>"; };
+		BE40B19D1AD213D70034B0E6 /* ImageTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTexture.h; sourceTree = "<group>"; };
+		BE40B19E1AD213D70034B0E6 /* ImageTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTexture.m; sourceTree = "<group>"; };
+		BE40B19F1AD213D70034B0E6 /* PlanetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetView.h; sourceTree = "<group>"; };
+		BE40B1A01AD213D70034B0E6 /* PlanetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetView.m; sourceTree = "<group>"; };
+		BE40B1A11AD213D70034B0E6 /* PlanetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetViewController.h; sourceTree = "<group>"; };
+		BE40B1A21AD213D70034B0E6 /* PlanetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetViewController.m; sourceTree = "<group>"; };
+		BE40B1A31AD213D70034B0E6 /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		BE40B1A41AD213D70034B0E6 /* Sphere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sphere.m; sourceTree = "<group>"; };
+		BE40B1AB1AD214000034B0E6 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earth.png; path = data/earth.png; sourceTree = "<group>"; };
+		BE40B1AC1AD214000034B0E6 /* Jupiter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Jupiter.png; path = data/Jupiter.png; sourceTree = "<group>"; };
+		BE40B1AD1AD214000034B0E6 /* Mars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mars.png; path = data/Mars.png; sourceTree = "<group>"; };
+		BE40B1AE1AD214000034B0E6 /* Mercury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mercury.png; path = data/Mercury.png; sourceTree = "<group>"; };
+		BE40B1AF1AD214000034B0E6 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moon.png; path = data/moon.png; sourceTree = "<group>"; };
+		BE40B1B01AD214000034B0E6 /* Neptune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Neptune.png; path = data/Neptune.png; sourceTree = "<group>"; };
+		BE40B1B11AD214000034B0E6 /* Saturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Saturn.png; path = data/Saturn.png; sourceTree = "<group>"; };
+		BE40B1B21AD214000034B0E6 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = data/sun.png; sourceTree = "<group>"; };
+		BE40B1B31AD214000034B0E6 /* Uranus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Uranus.png; path = data/Uranus.png; sourceTree = "<group>"; };
+		BE40B1B41AD214000034B0E6 /* Venus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Venus.png; path = data/Venus.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE40B16D1AD213190034B0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE40B1861AD213190034B0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE40B1671AD213190034B0E6 = {
+			isa = PBXGroup;
+			children = (
+				BE40B1721AD213190034B0E6 /* Solar System Explorer */,
+				BE40B18C1AD213190034B0E6 /* Solar System ExplorerTests */,
+				BE40B1711AD213190034B0E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE40B1711AD213190034B0E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE40B1701AD213190034B0E6 /* Solar System Explorer.app */,
+				BE40B1891AD213190034B0E6 /* Solar System ExplorerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE40B1721AD213190034B0E6 /* Solar System Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				BE40B1991AD213D70034B0E6 /* AppDelegate.h */,
+				BE40B19A1AD213D70034B0E6 /* AppDelegate.m */,
+				BE40B19B1AD213D70034B0E6 /* CMDisplayView.h */,
+				BE40B19C1AD213D70034B0E6 /* CMDisplayView.m */,
+				BE40B19D1AD213D70034B0E6 /* ImageTexture.h */,
+				BE40B19E1AD213D70034B0E6 /* ImageTexture.m */,
+				BE40B19F1AD213D70034B0E6 /* PlanetView.h */,
+				BE40B1A01AD213D70034B0E6 /* PlanetView.m */,
+				BE40B1A11AD213D70034B0E6 /* PlanetViewController.h */,
+				BE40B1A21AD213D70034B0E6 /* PlanetViewController.m */,
+				BE40B1A31AD213D70034B0E6 /* Sphere.h */,
+				BE40B1A41AD213D70034B0E6 /* Sphere.m */,
+				BE40B1801AD213190034B0E6 /* Images.xcassets */,
+				BE40B1821AD213190034B0E6 /* LaunchScreen.xib */,
+				BE40B1731AD213190034B0E6 /* Supporting Files */,
+			);
+			path = "Solar System Explorer";
+			sourceTree = "<group>";
+		};
+		BE40B1731AD213190034B0E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE40B1741AD213190034B0E6 /* Info.plist */,
+				BE40B1AB1AD214000034B0E6 /* earth.png */,
+				BE40B1AC1AD214000034B0E6 /* Jupiter.png */,
+				BE40B1AD1AD214000034B0E6 /* Mars.png */,
+				BE40B1AE1AD214000034B0E6 /* Mercury.png */,
+				BE40B1AF1AD214000034B0E6 /* moon.png */,
+				BE40B1B01AD214000034B0E6 /* Neptune.png */,
+				BE40B1B11AD214000034B0E6 /* Saturn.png */,
+				BE40B1B21AD214000034B0E6 /* sun.png */,
+				BE40B1B31AD214000034B0E6 /* Uranus.png */,
+				BE40B1B41AD214000034B0E6 /* Venus.png */,
+				BE40B1751AD213190034B0E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE40B18C1AD213190034B0E6 /* Solar System ExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE40B18F1AD213190034B0E6 /* Solar_System_ExplorerTests.m */,
+				BE40B18D1AD213190034B0E6 /* Supporting Files */,
+			);
+			path = "Solar System ExplorerTests";
+			sourceTree = "<group>";
+		};
+		BE40B18D1AD213190034B0E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE40B18E1AD213190034B0E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE40B16F1AD213190034B0E6 /* Solar System Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE40B1931AD213190034B0E6 /* Build configuration list for PBXNativeTarget "Solar System Explorer" */;
+			buildPhases = (
+				BE40B16C1AD213190034B0E6 /* Sources */,
+				BE40B16D1AD213190034B0E6 /* Frameworks */,
+				BE40B16E1AD213190034B0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar System Explorer";
+			productName = "Solar System Explorer";
+			productReference = BE40B1701AD213190034B0E6 /* Solar System Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE40B1881AD213190034B0E6 /* Solar System ExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE40B1961AD213190034B0E6 /* Build configuration list for PBXNativeTarget "Solar System ExplorerTests" */;
+			buildPhases = (
+				BE40B1851AD213190034B0E6 /* Sources */,
+				BE40B1861AD213190034B0E6 /* Frameworks */,
+				BE40B1871AD213190034B0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE40B18B1AD213190034B0E6 /* PBXTargetDependency */,
+			);
+			name = "Solar System ExplorerTests";
+			productName = "Solar System ExplorerTests";
+			productReference = BE40B1891AD213190034B0E6 /* Solar System ExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE40B1681AD213190034B0E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Jarret Kolanko and Michael Singelton";
+				TargetAttributes = {
+					BE40B16F1AD213190034B0E6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BE40B1881AD213190034B0E6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BE40B16F1AD213190034B0E6;
+					};
+				};
+			};
+			buildConfigurationList = BE40B16B1AD213190034B0E6 /* Build configuration list for PBXProject "Solar System Explorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE40B1671AD213190034B0E6;
+			productRefGroup = BE40B1711AD213190034B0E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE40B16F1AD213190034B0E6 /* Solar System Explorer */,
+				BE40B1881AD213190034B0E6 /* Solar System ExplorerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE40B16E1AD213190034B0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE40B1841AD213190034B0E6 /* LaunchScreen.xib in Resources */,
+				BE40B1B61AD214000034B0E6 /* Jupiter.png in Resources */,
+				BE40B1BC1AD214000034B0E6 /* sun.png in Resources */,
+				BE40B1B91AD214000034B0E6 /* moon.png in Resources */,
+				BE40B1B71AD214000034B0E6 /* Mars.png in Resources */,
+				BE40B1BE1AD214000034B0E6 /* Venus.png in Resources */,
+				BE40B1B81AD214000034B0E6 /* Mercury.png in Resources */,
+				BE40B1BA1AD214000034B0E6 /* Neptune.png in Resources */,
+				BE40B1BD1AD214000034B0E6 /* Uranus.png in Resources */,
+				BE40B1811AD213190034B0E6 /* Images.xcassets in Resources */,
+				BE40B1B51AD214000034B0E6 /* earth.png in Resources */,
+				BE40B1BB1AD214000034B0E6 /* Saturn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE40B1871AD213190034B0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE40B16C1AD213190034B0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE40B1A81AD213D70034B0E6 /* PlanetView.m in Sources */,
+				BE40B1A51AD213D70034B0E6 /* AppDelegate.m in Sources */,
+				BE40B1AA1AD213D70034B0E6 /* Sphere.m in Sources */,
+				BE40B1A71AD213D70034B0E6 /* ImageTexture.m in Sources */,
+				BE40B1A61AD213D70034B0E6 /* CMDisplayView.m in Sources */,
+				BE40B1A91AD213D70034B0E6 /* PlanetViewController.m in Sources */,
+				BE40B1761AD213190034B0E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE40B1851AD213190034B0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE40B1901AD213190034B0E6 /* Solar_System_ExplorerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE40B18B1AD213190034B0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE40B16F1AD213190034B0E6 /* Solar System Explorer */;
+			targetProxy = BE40B18A1AD213190034B0E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE40B1821AD213190034B0E6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE40B1831AD213190034B0E6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE40B1911AD213190034B0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE40B1921AD213190034B0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE40B1941AD213190034B0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Solar System Explorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE40B1951AD213190034B0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Solar System Explorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE40B1971AD213190034B0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Solar System ExplorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System Explorer.app/Solar System Explorer";
+			};
+			name = Debug;
+		};
+		BE40B1981AD213190034B0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Solar System ExplorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System Explorer.app/Solar System Explorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE40B16B1AD213190034B0E6 /* Build configuration list for PBXProject "Solar System Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE40B1911AD213190034B0E6 /* Debug */,
+				BE40B1921AD213190034B0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE40B1931AD213190034B0E6 /* Build configuration list for PBXNativeTarget "Solar System Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE40B1941AD213190034B0E6 /* Debug */,
+				BE40B1951AD213190034B0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE40B1961AD213190034B0E6 /* Build configuration list for PBXNativeTarget "Solar System ExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE40B1971AD213190034B0E6 /* Debug */,
+				BE40B1981AD213190034B0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE40B1681AD213190034B0E6 /* Project object */;
+}
